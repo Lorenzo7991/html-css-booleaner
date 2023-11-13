@@ -1,7 +1,12 @@
+/* generics */
+body{
+    align-items: ;
+}
+
 /* header style */
 .pattern{
     height: 70px;
-    width: 80%%;
+    width: 80%;
     background-color: cornflowerblue;
     background-image: url(../img/pattern.png);
     background-size: 160px
@@ -13,5 +18,22 @@
     background-size: 110px;
     background-repeat: no-repeat;
     background-position: center left;
+
+}
+
+h1{
+    margin-bottom: 2px;
+}
+
+.author{
+    font-weight: 300;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.date{
+    margin-top: 2px;
+    font-size: x-small;
 
 }

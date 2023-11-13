@@ -1,3 +1,17 @@
-body{
-    background-color: blue;
+/* header style */
+.pattern{
+    height: 70px;
+    width: 80%%;
+    background-color: cornflowerblue;
+    background-image: url(../img/pattern.png);
+    background-size: 160px
+}
+.logo{
+    height: 100%;
+    width: 40%;
+    background-image:url(../img/logo.svg);
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: center left;
+
 }

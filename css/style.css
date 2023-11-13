@@ -1,51 +1,65 @@
-/* header sec style */
-.pattern{
-    height: 70px;
+/* generics */
+.container{
     width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+ul{
+    padding: 20px;
+    margin-top: 2px;
+}
+
+/* header sec style */
+.pattern {
+    height: 70px;
+    width: auto;
     background-color: cornflowerblue;
     background-image: url(../img/pattern.png);
     background-size: 160px
 }
-.logo{
+
+.logo {
     height: 100%;
     width: 40%;
-    background-image:url(../img/logo.svg);
+    background-image: url(../img/logo.svg);
     background-size: 110px;
     background-repeat: no-repeat;
     background-position: center left;
 
 }
 
-h1{
+h1 {
     margin-bottom: 2px;
-    width: 80%;
+    width: auto;
 
 }
 
-.author{
+.author {
     font-weight: 300;
     margin-top: 2px;
     margin-bottom: 2px;
 
 }
 
-.date{
+.date {
     margin-top: 2px;
     font-size: x-small;
 
 }
 
-/* main sec style */
-.tim_img1{
-    height: 300px;
-    width: 80%;
-    background-color: blue;
-    background-image:url(../img/tim-1.jpg);
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-}
-.tim_img2{
-    background-image: url(../img/tim-2.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-}
+.img_tim {
+    height: 400px;
+    width: 550px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    }
+
+    table{
+        border-collapse: collapse;
+    }
+
+    .theader{
+        background-color: rgba(100, 148, 237, 0.667);
+    }

@@ -1,9 +1,4 @@
-/* generics */
-body{
-    align-items: ;
-}
-
-/* header style */
+/* header sec style */
 .pattern{
     height: 70px;
     width: 80%;
@@ -23,6 +18,8 @@ body{
 
 h1{
     margin-bottom: 2px;
+    width: 80%;
+
 }
 
 .author{
@@ -36,4 +33,19 @@ h1{
     margin-top: 2px;
     font-size: x-small;
 
+}
+
+/* main sec style */
+.tim_img1{
+    height: 300px;
+    width: 80%;
+    background-color: blue;
+    background-image:url(../img/tim-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+.tim_img2{
+    background-image: url(../img/tim-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
 }
